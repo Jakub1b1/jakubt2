@@ -1,0 +1,104 @@
+body
+{
+    background-color:black;
+	font-family: 'Lato', sans-serif;
+}
+ 
+#container
+{
+    width: 1060px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ 
+#logo
+{
+    color: white;
+    margin-top: 20px;
+    font-size: 44px;
+    font-weight: 900;
+}
+ 
+#menu
+{
+    background-color: #303030;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 10px;
+     
+}
+ 
+#content
+{
+    float: left;
+    padding: 40px;
+    width: 730px;
+    background-color: #dedede;
+    min-height: 580px;
+    text-align: justify;
+} 
+.option
+{
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px; //rozmiar trzcionki
+    padding: 10px; // przestrzeń u góry
+   border-right: 2px dotted #444444; //kropki
+   opacity: 0.8;
+}
+ 
+.option:hover
+{
+    background-color: #000000;
+    cursor: pointer;
+}
+ 
+.option
+{
+    font-size:18px;
+    height:25px;
+    padding: 10px;
+  
+}
+ 
+.bigtitle
+{
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;s
+}
+ 
+.dottedline
+{
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #444444;
+}
+
+#reszta
+{
+	 float: left;
+    padding: 40px;
+    width: 730px;
+    background-color: #dedede;
+    min-height: 580px;
+    text-align: justify;
+	margin-left: 190px;
+}
+
+a.tilelink
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+.r
+{
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
